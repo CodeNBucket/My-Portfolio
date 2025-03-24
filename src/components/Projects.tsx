@@ -49,7 +49,7 @@ const projects = [
     techStack: ["React", "TypeScript", "Tailwind CSS", "HTML"],
     icons: [reactIcon, typescriptIcon, tailwindIcon, htmlIcon],
     githubLinks: {
-      repository: "https://github.com/yourusername/portfolio-frontend",
+      repository: "https://github.com/CodeNBucket/My-Portfolio",
     },
   },
 ];
