@@ -70,7 +70,7 @@ const Projects = forwardRef<HTMLDivElement, { darkMode: boolean; highlightedProj
             {projects.map((project, index) => (
               <div
                 key={index}
-                className={`w-full rounded-xl p-8 shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-3xl relative flex flex-col justify-between ${
+                className={`w-full rounded-xl p-8 shadow-2xl   flex flex-col justify-between ${
                   darkMode
                     ? "bg-[#16213E] text-text-dark"
                     : "bg-[#F5F5F5] text-text-light"
