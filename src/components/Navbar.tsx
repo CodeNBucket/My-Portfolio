@@ -68,7 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleDarkMode, darkMode }) => {
 
       <button
         onClick={toggleDarkMode}
-        className="flex items-center justify-between w-16 h-8 md:w-24 md:h-12 bg-gray-300 rounded-full relative shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none"
+        className="flex items-center justify-between ml-24 w-16 h-8 md:w-24 md:h-12 bg-gray-300 rounded-full relative shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none"
       >
         <span
           className={`absolute top-1 left-1 w-6 h-6 md:w-10 md:h-10 text-xl md:text-3xl flex items-center justify-center rounded-full bg-white shadow-md transition-all duration-300 ease-in-out ${
