@@ -21,16 +21,23 @@ const Hero: React.FC<{ darkMode: boolean }> = ({ darkMode }) => {
             Hi, I am <span className={`text-7xl font-extrabold ${darkMode ? "text-[#A855F7]" : "text-[#52631f]"}`}>Canberk</span>
           </h1>
 
-          <p className="text-4xl font-semibold leading-snug">
+          <p className="text-4xl font-semibold leading-snug text-gray-800 dark:text-gray-200">
             I am a{" "}
             <ReactTyped
-              strings={["Full Stack Developer", "Computer Vision Enthusiast", "Machine Learning Practitioner", "Bug Exterminator"]}
+              strings={[
+                "Full Stack Developer",
+                "Computer Vision Enthusiast",
+                "Machine Learning Practitioner",
+                "Bug Exterminator",
+              ]}
               typeSpeed={50}
               backSpeed={30}
               backDelay={500}
               loop
+              className="text-[#537336] dark:text-[#dd6ce0]" // Change text color in dark mode
             />
           </p>
+
 
           <div className="mt-6 flex justify-center md:justify-start">
   <button
