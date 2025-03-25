@@ -54,6 +54,7 @@ const projects = [
   },
 ];
 
+
 const Projects = forwardRef<HTMLDivElement, { darkMode: boolean; highlightedProjects: Set<number> }>(
   ({ darkMode, highlightedProjects }, ref) => {
     return (
