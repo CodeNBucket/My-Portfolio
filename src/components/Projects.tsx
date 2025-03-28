@@ -6,7 +6,7 @@ import springIcon from "../assets/icons/springboot.png";
 import sqlIcon from "../assets/icons/sql.png";
 import pythonIcon from "../assets/icons/python.png";
 import djangoIcon from "../assets/icons/django.png";
-import tensorflowIcon from "../assets/icons/tensorflow.png";
+import pytorchIcon from "../assets/icons/pytorch.svg";
 import opencvIcon from "../assets/icons/opencv.png";
 import tailwindIcon from "../assets/icons/tailwindcss.png";
 import typescriptIcon from "../assets/icons/typescript.png";
@@ -27,8 +27,8 @@ const projects = [
   {
     title: "Vision-Based Projects",
     description: "AI-powered computer vision projects for real-time custom-labeled tomato counting and vehicle tracking using YOLOv8, OpenCV, and TensorFlow. These solutions leverage advanced image processing and machine learning for accurate and efficient tracking and counting.",
-    techStack: ["Python", "OpenCV", "TensorFlow"],
-    icons: [pythonIcon, opencvIcon, tensorflowIcon],
+    techStack: ["Python", "OpenCV", "PyTorch"],
+    icons: [pythonIcon, opencvIcon, pytorchIcon],
     githubLinks: {
       vehicleTracking: "https://github.com/CodeNBucket/vehicle-tracking",
       tomatoCounter: "https://github.com/CodeNBucket/Custom-Tomato-Counter",

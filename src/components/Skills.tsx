@@ -12,7 +12,7 @@ import reactIcon from "../assets/icons/react.png";
 import sqlIcon from "../assets/icons/sql.png";
 import tailwindIcon from "../assets/icons/tailwindcss.png";
 import springboot from "../assets/icons/springboot.png";
-import tensorflowIcon from "../assets/icons/tensorflow.png";
+import pytorchIcon from "../assets/icons/pytorch.svg";
 import opencvIcon from "../assets/icons/opencv.png";
 import c from "../assets/icons/c.png";
 import java from "../assets/icons/java.png";
@@ -37,7 +37,7 @@ const technologies = [
   { name: "React", icon: reactIcon },
   { name: "Node.js", icon: nodejsIcon },
   { name: "SpringBoot", icon: springboot },
-  { name: "TensorFlow", icon: tensorflowIcon },
+  { name: "PyTorch", icon: pytorchIcon },
   { name: "Django", icon: djangoIcon },
   { name: "Tailwind CSS", icon: tailwindIcon },
   { name: "OpenCV", icon: opencvIcon },
