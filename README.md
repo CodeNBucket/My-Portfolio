@@ -13,11 +13,8 @@ This is my personal portfolio showcasing my work and skills as a **Full Stack De
 - **React**  
 - **TypeScript**  
 - **Tailwind CSS**  
-- **Node.js**  
-- **Python**  
-- **Django**  
-- **TensorFlow**  
-
+- **HTML**
+  
 ## Setup Instructions
 
 To run the project locally, follow these steps:  
