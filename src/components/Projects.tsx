@@ -31,7 +31,7 @@ const projects = [
     icons: [pythonIcon, opencvIcon, pytorchIcon],
     githubLinks: {
       vehicleTracking: "https://github.com/CodeNBucket/vehicle-tracking",
-      tomatoCounter: "https://github.com/CodeNBucket/Custom-Tomato-Counter",
+      MusicWithHandGesture: "https://github.com/CodeNBucket/Music-With-Hand-Gestures",
     },
   },
   {
@@ -120,8 +120,8 @@ const Projects = forwardRef<HTMLDivElement, { darkMode: boolean; highlightedProj
                           ? "bg-purple-600 hover:bg-purple-700"
                           : label === "vehicleTracking"
                           ? "bg-indigo-600 hover:bg-indigo-700"
-                          : label === "tomatoCounter"
-                          ? "bg-red-600 hover:bg-red-700"
+                          : label === "MusicWithHandGesture"
+                          ? "bg-pink-500 hover:bg-pink-600"
                           : label === "repository"
                           ? "bg-teal-600 hover:bg-teal-700"
                           : "bg-gray-600 hover:bg-gray-700"
